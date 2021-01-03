@@ -3,4 +3,26 @@ Some text is here
 1st change is here
     and here!!
    
-Gitub changes are here!!
+Github changes are here
+
+Git:
+    add file.txt
+    commit -m "message"
+    push 
+    pull
+    log
+    reset = revert repository
+        --hard <commit> 
+            the commit hash is in <commit>
+        -- hard origin/master
+
+Making changes
+    Working linearly is not always acceptable
+    Branches allow one to work on several aspects in a non-linear way
+        master branch is the default
+        Head is the current focus of work (on which branch it is working)
+    
+Git:
+    git branch
+    git checkout -b newbranch
+    
